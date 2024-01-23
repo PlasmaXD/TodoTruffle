@@ -1,5 +1,7 @@
 # TodoApp with Create Solidity and React App
-
+```
+npm install -g truffle  
+```
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 参考 :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
 
