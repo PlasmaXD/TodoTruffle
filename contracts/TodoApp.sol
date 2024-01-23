@@ -1,8 +1,8 @@
 // ⓪ コンパイラバージョンを指定する
 pragma solidity ^0.5.0;
-//truffle compile
-//truffle migrate --network sepolia
-//truffle migrate --network sepolia --reset
+// truffle compile
+// truffle migrate --network sepolia
+// truffle migrate --network sepolia --reset
 // ① Contract名を宣言
 contract TodoApp {
 

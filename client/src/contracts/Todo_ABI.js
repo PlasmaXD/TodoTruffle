@@ -1,6 +1,6 @@
 import web3 from './web3';
-// import TodoApp from '../../build/contracts/TodoApp.json';
-import TodoApp from './TodoApp.json';
+import TodoApp from '../../../build/contracts/TodoApp.json';
+// import TodoApp from './TodoApp.json';
 
 const networkId = String(await web3.eth.net.getId());
 const CONTRACT_ADDRESS = TodoApp.networks[networkId].address;
@@ -136,6 +136,6 @@ const abi =[
 ];
 
 
-// export default new web3.eth.Contract(TodoApp.abi, CONTRACT_ADDRESS);
-export default new web3.eth.Contract(abi, address);
+export default new web3.eth.Contract(TodoApp.abi, CONTRACT_ADDRESS);
+// export default new web3.eth.Contract(abi, address);
 

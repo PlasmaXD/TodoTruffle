@@ -16,11 +16,12 @@ https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 ├── react@17.0.2  
 ├── web-vitals@0.2.4  
 └── web3@1.9.0 
-
-
-
-
-
+### コンパイル＆デプロイする方法
+```
+truffle compile　　コンパイル
+truffle migrate --network sepolia　　デプロイ
+truffle migrate --network sepolia --reset　　再デプロイ
+```
 
 古い記事なので
  npm add react-bootstrap@1.0.1をしないとエラる・・  
