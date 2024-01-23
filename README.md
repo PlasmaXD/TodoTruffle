@@ -24,10 +24,8 @@ truffle migrate --network sepolia --reset　　再デプロイ
 ```
 
 古い記事なので
- npm add react-bootstrap@1.0.1をしないとエラる・・  
- [TodoApp.sol](https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol)をコピペして実行 
- const address = ` ` `コントラクトアドレス
-` ` `;のとこ  '　'抜かすとうごかない
+ npm add react-bootstrap@1.0.1をしないとエラー  
+
 
 ### Top level awaitを有効にする方法
 ```
@@ -37,7 +35,6 @@ yarn add -D webpack webpack-cli webpack-dev-server babel-loader @babel/core  @ba
 yarn add react react-dom
 ```
 
-#### RemixからMetaMaskのウォレットに接続するためにInjected Provider-Metamakを選択する  
 
 
 
