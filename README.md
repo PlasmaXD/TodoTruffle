@@ -1,4 +1,4 @@
-# TodoApp with Create Solidity and React App
+# TodoApp with Create Solidity and React App(Truffle)
 ```
 npm install -g truffle  
 ```
